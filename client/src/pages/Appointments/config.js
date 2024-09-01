@@ -7,7 +7,7 @@ export const fields = {
     entity: 'requestor',
     redirectLabel: 'Add New Requestor',
     withRedirect: true,
-    urlToRedirect: '/requestors',
+    urlToRedirect: '/requestor',
     displayLabels: ['firstname', 'lastname'],
     searchFields: 'firstname,lastname',
     dataIndex: ['requestor', 'firstname'],

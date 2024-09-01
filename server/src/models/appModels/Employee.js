@@ -39,6 +39,11 @@ const employeeSchema = new mongoose.Schema({
     trim: true,
     lowercase: true,
   },
+  company : {
+    type: String,
+    trim: true,
+    required: true,
+  },
 
   created: {
     type: Date,

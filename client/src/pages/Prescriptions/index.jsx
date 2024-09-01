@@ -2,20 +2,20 @@ import CrudModule from '@/modules/CrudModule/CrudModule';
 import DynamicForm from '@/forms/DynamicForm';
 import { fields } from './config';
 
-export default function Patients() {
-  const entity = 'patients';
+export default function Prescriptions() {
+  const entity = 'prescriptions';
   const searchConfig = {
     displayLabels: ['name'],
-    searchFields: ['sinumber', 'name'],
+    searchFields: ['name'],
   };
 
   const deleteModalLabels = [' ', 'name'];
 
   const Labels = {
-    PANEL_TITLE: 'Patients Management',
-    DATATABLE_TITLE: 'Patients Module',
-    ADD_NEW_ENTITY: 'Add New Patients',
-    ENTITY_NAME: 'Patients',
+    PANEL_TITLE: 'Prescriptions Management',
+    DATATABLE_TITLE: 'Prescriptions Module',
+    ADD_NEW_ENTITY: 'Add New Prescriptions',
+    ENTITY_NAME: 'Prescriptions',
   };
   const configPage = {
     entity,

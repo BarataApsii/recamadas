@@ -1,5 +1,5 @@
 {
-  "name": "rcts-appointment-system",
+  "name": "recamadas-system",
   "version": "1",
   "engines": {
     "npm": "10.2.4",
@@ -48,6 +48,5 @@
     "@": "src"
   },
   "main": "server.js",
-  "author": "Drakkarrr",
-  "email": "drakkar.alpha00@gmail.com"
+  "author": "Aloha"
 }

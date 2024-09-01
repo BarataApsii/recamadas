@@ -15,6 +15,9 @@ require('dotenv').config({ path: '.env' });
 require('dotenv').config({ path: '.env.local' });
 
 mongoose.connect(process.env.DATABASE);
+// mongoose.connect(
+//   'mongodb+srv://drakkaralpha00:drakkaralpha00@cluster0.l0oyx.mongodb.net/'
+// );
 
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 

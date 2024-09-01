@@ -22,61 +22,61 @@ const AppNav = ({ translate }) => [
     icon: <DashboardOutlined />,
     label: <Link to={'/'}>{translate('dashboard')}</Link>,
   },
-  {
-    key: 'customer',
-    icon: <CustomerServiceOutlined />,
-    label: <Link to={'/customer'}>{translate('customer')}</Link>,
-  },
-  {
-    key: 'people',
-    icon: <UserOutlined />,
-    label: <Link to={'/people'}>{translate('people')}</Link>,
-  },
-  {
-    key: 'company',
-    icon: <ShopOutlined />,
-    label: <Link to={'/company'}>{translate('company')}</Link>,
-  },
-  {
-    key: 'lead',
-    icon: <FilterOutlined />,
-    label: <Link to={'/lead'}>{translate('lead')}</Link>,
-  },
-  {
-    key: 'offer',
-    icon: <FileOutlined />,
-    label: <Link to={'/offer'}>{translate('Offer Leads')}</Link>,
-  },
-  {
-    key: 'invoice',
-    icon: <ContainerOutlined />,
-    label: <Link to={'/invoice'}>{translate('invoice')}</Link>,
-  },
-  {
-    key: 'quote',
-    icon: <FileSyncOutlined />,
-    label: <Link to={'/quote'}>{translate('quote')}</Link>,
-  },
-  {
-    key: 'payment',
-    icon: <CreditCardOutlined />,
-    label: <Link to={'/payment'}>{translate('payment')}</Link>,
-  },
-  {
-    key: 'expenses',
-    icon: <WalletOutlined />,
-    label: <Link to={'/expenses'}>{translate('expense')}</Link>,
-  },
-  {
-    key: 'product',
-    icon: <TagOutlined />,
-    label: <Link to={'/product'}>{translate('product')}</Link>,
-  },
-  {
-    key: 'categoryproduct',
-    icon: <TagsOutlined />,
-    label: <Link to={'/category/product'}>{translate('product_category')}</Link>,
-  },
+  // {
+  //   key: 'customer',
+  //   icon: <CustomerServiceOutlined />,
+  //   label: <Link to={'/customer'}>{translate('customer')}</Link>,
+  // },
+  // {
+  //   key: 'people',
+  //   icon: <UserOutlined />,
+  //   label: <Link to={'/people'}>{translate('people')}</Link>,
+  // },
+  // {
+  //   key: 'company',
+  //   icon: <ShopOutlined />,
+  //   label: <Link to={'/company'}>{translate('company')}</Link>,
+  // },
+  // {
+  //   key: 'lead',
+  //   icon: <FilterOutlined />,
+  //   label: <Link to={'/lead'}>{translate('lead')}</Link>,
+  // },
+  // {
+  //   key: 'offer',
+  //   icon: <FileOutlined />,
+  //   label: <Link to={'/offer'}>{translate('Offer Leads')}</Link>,
+  // },
+  // {
+  //   key: 'invoice',
+  //   icon: <ContainerOutlined />,
+  //   label: <Link to={'/invoice'}>{translate('invoice')}</Link>,
+  // },
+  // {
+  //   key: 'quote',
+  //   icon: <FileSyncOutlined />,
+  //   label: <Link to={'/quote'}>{translate('quote')}</Link>,
+  // },
+  // {
+  //   key: 'payment',
+  //   icon: <CreditCardOutlined />,
+  //   label: <Link to={'/payment'}>{translate('payment')}</Link>,
+  // },
+  // {
+  //   key: 'expenses',
+  //   icon: <WalletOutlined />,
+  //   label: <Link to={'/expenses'}>{translate('expense')}</Link>,
+  // },
+  // {
+  //   key: 'product',
+  //   icon: <TagOutlined />,
+  //   label: <Link to={'/product'}>{translate('product')}</Link>,
+  // },
+  // {
+  //   key: 'categoryproduct',
+  //   icon: <TagsOutlined />,
+  //   label: <Link to={'/category/product'}>{translate('product_category')}</Link>,
+  // },
   // {
   //   key: 'employee',
   //   icon: <UserOutlined />,

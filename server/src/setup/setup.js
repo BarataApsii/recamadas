@@ -5,10 +5,10 @@ const fs = require('fs');
 const { generate: uniqueId } = require('shortid');
 
 const mongoose = require('mongoose');
-// mongoose.connect(process.env.DATABASE);
-mongoose.connect(
-  'mongodb+srv://rcts-dev-database:rcts-dev-database123@rcts-dev-database.lypa6wu.mongodb.net/'
-);
+mongoose.connect(process.env.DATABASE);
+// mongoose.connect(
+//   'mongodb+srv://drakkaralpha00:drakkaralpha00@cluster0.l0oyx.mongodb.net/'
+// );
 
 async function setupApp() {
   try {

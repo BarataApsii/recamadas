@@ -26,10 +26,10 @@ export default function SideContent() {
           height={63}
           width={220}
         /> */}
-        <h1>Your Logo Here!</h1>
+        <h1>Recamadas system</h1>
 
         <div className="space40"></div>
-        <Title level={3}>Brngy Management System</Title>
+        <Title level={3}>Recamadas Optical System</Title>
 
         <div className="space20"></div>
         <ul className="list-checked" style={{ paddingRight: 0 }}>

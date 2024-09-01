@@ -58,24 +58,14 @@ function Sidebar({ collapsible, isMobile = false }) {
       label: <Link to={'/'}>{translate('dashboard')}</Link>,
     },
     {
-      key: 'appointments',
+      key: 'patients',
       icon: <UserOutlined />,
-      label: <Link to={'/appointments'}>Appointments</Link>,
+      label: <Link to={'/patients'}>Patients</Link>,
     },
     {
-      key: 'events',
+      key: 'prescriptions',
       icon: <UserOutlined />,
-      label: <Link to={'/events'}>Events</Link>,
-    },
-    {
-      key: 'requestors',
-      icon: <UserOutlined />,
-      label: <Link to={'/requestors'}>Requestors</Link>,
-    },
-    {
-      key: 'employees',
-      icon: <UserOutlined />,
-      label: <Link to={'/employees'}>Employees</Link>,
+      label: <Link to={'/prescriptions'}>Prescriptions</Link>,
     },
     {
       key: 'user-management',
@@ -98,6 +88,101 @@ function Sidebar({ collapsible, isMobile = false }) {
         },
       ],
     },
+
+
+    // {
+    //   key: 'appointments',
+    //   icon: <UserOutlined />,
+    //   label: <Link to={'/appointments'}>Appointments</Link>,
+    // },
+    // {
+    //   key: 'events',
+    //   icon: <UserOutlined />,
+    //   label: <Link to={'/events'}>Events</Link>,
+    // },
+    // {
+    //   key: 'requestors',
+    //   icon: <UserOutlined />,
+    //   label: <Link to={'/requestors'}>Requestors</Link>,
+    // },
+    // {
+    //   key: 'employees',
+    //   icon: <UserOutlined />,
+    //   label: <Link to={'/employees'}>Employees</Link>,
+    // },
+   
+
+
+
+
+
+    // {
+    //   key: 'customer',
+    //   icon: <CustomerServiceOutlined />,
+    //   label: <Link to={'/customer'}>{translate('customer')}</Link>,
+    // },
+    // // {
+    // //   key: 'people',
+    // //   icon: <UserOutlined />,
+    // //   label: <Link to={'/people'}>{translate('people')}</Link>,
+    // // },
+    // {
+    //   key: 'company',
+    //   icon: <ShopOutlined />,
+    //   label: <Link to={'/company'}>{translate('company')}</Link>,
+    // },
+    // {
+    //   key: 'lead',
+    //   icon: <FilterOutlined />,
+    //   label: <Link to={'/lead'}>{translate('lead')}</Link>,
+    // },
+    // {
+    //   key: 'offer',
+    //   icon: <FileOutlined />,
+    //   label: <Link to={'/offer'}>{translate('Offer Leads')}</Link>,
+    // },
+    // {
+    //   key: 'invoice',
+    //   icon: <ContainerOutlined />,
+    //   label: <Link to={'/invoice'}>{translate('invoice')}</Link>,
+    // },
+    // {
+    //   key: 'quote',
+    //   icon: <FileSyncOutlined />,
+    //   label: <Link to={'/quote'}>{translate('quote')}</Link>,
+    // },
+    // {
+    //   key: 'payment',
+    //   icon: <CreditCardOutlined />,
+    //   label: <Link to={'/payment'}>{translate('payment')}</Link>,
+    // },
+    // {
+    //   key: 'expenses',
+    //   icon: <WalletOutlined />,
+    //   label: <Link to={'/expenses'}>{translate('expense')}</Link>,
+    // },
+    // {
+    //   key: 'expensescategory',
+    //   icon: <WalletOutlined />,
+    //   label: <Link to={'/expensescategory'}>Expense Category</Link>,
+    // },
+    // {
+    //   key: 'product',
+    //   icon: <TagOutlined />,
+    //   label: <Link to={'/product'}>{translate('product')}</Link>,
+    // },
+    // {
+    //   key: 'categoryproduct',
+    //   icon: <TagsOutlined />,
+    //   label: <Link to={'/category/product'}>{translate('product_category')}</Link>,
+    // },
+    // {
+    //   key: 'employee',
+    //   icon: <UserOutlined />,
+    //   label: <Link to={'/employee'}>{translate('employee')}</Link>,
+    // },
+
+    
   ];
 
   useEffect(() => {
@@ -168,7 +253,7 @@ function Sidebar({ collapsible, isMobile = false }) {
             }}
           />
         )} */}
-        <h2>CTS Logo</h2>
+        <h2>Logo Here</h2>
       </div>
       <Menu
         items={items}

@@ -10,41 +10,52 @@ const schema = new mongoose.Schema({
     default: true,
   },
 
-  sinumber: {
+  patients: { type: mongoose.Schema.ObjectId, ref: 'Patients', autopopulate: true },
+
+  lenstype: {
     type: String,
     required: true,
   },
-  name: {
+
+  frametype: {
     type: String,
     required: true,
   },
-  phone: {
+  spherepower: {
     type: String,
+    required: true,
     trim: true,
   },
-  address: {
+  cylinderpower: {
     type: String,
     required: true,
   },
-  medicalhistory: {
+  axis: {
     type: String,
+    required: true,
   },
-  senior_citizen_number: {
+  prism: {
     type: String,
+    required: true,
   },
-  pwd_citizen_number: {
+  pd: {
     type: String,
+    required: true,
+  },
+  add: {
+    type: String,
+    required: true,
   },
   
-  updated: {
+  created: {
     type: Date,
     default: Date.now,
   },
-  created: {
+  updated: {
     type: Date,
     default: Date.now,
   },
 });
 
 schema.plugin(require('mongoose-autopopulate'));
-module.exports = mongoose.model('Patients', schema);
+module.exports = mongoose.model('Prescriptions', schema);

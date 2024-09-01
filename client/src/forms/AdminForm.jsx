@@ -87,17 +87,8 @@ export default function AdminForm({ isUpdateForm = false, isForAdminOwner = fals
           <Select.Option value="admin" disabled={isForAdminOwner}>
             {translate('admin')}
           </Select.Option>
-          <Select.Option value="manager" disabled={isForAdminOwner}>
-            {translate('manager')}
-          </Select.Option>
-          <Select.Option value="employee" disabled={isForAdminOwner}>
-            {translate('employee')}
-          </Select.Option>
-          <Select.Option value="create_only" disabled={isForAdminOwner}>
-            {translate('create_only')}
-          </Select.Option>
-          <Select.Option value="read_only" disabled={isForAdminOwner}>
-            {translate('read_only')}
+          <Select.Option value="secretary" disabled={isForAdminOwner}>
+            {translate('secretary')}
           </Select.Option>
         </Select>
       </Form.Item>

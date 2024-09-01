@@ -3,11 +3,7 @@
 const roles = {
   owner: ['create', 'read', 'update', 'delete', 'download', 'upload'],
   admin: ['admin', 'create', 'read', 'update', 'delete', 'download', 'upload'],
-  manager: ['create', 'read', 'update', 'delete', 'download', 'upload'],
-  employee: ['create', 'read', 'update', 'download', 'upload'],
-  staff: ['create', 'read', 'update', 'download', 'upload'],
-  create_only: ['create', 'read', 'download', 'upload'],
-  read_only: ['read', 'download'],
+  secretary: ['create', 'read', 'update', 'download', 'upload'],
 };
 exports.roles = roles;
 
